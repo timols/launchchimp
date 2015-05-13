@@ -1,0 +1,26 @@
+{
+  "name": "launchchimp",
+  "version": "0.0.1",
+  "description": "A Launchrock Mailchimp API Integration Daemon",
+  "main": "launchchimp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/launchchimp.js | ./node_modules/bunyan/bin/bunyan"
+  },
+  "keywords": [
+    "Launchrock",
+    "Mailchimp",
+    "API"
+  ],
+  "author": "Tim Olshansky (@timols)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "daemon": "~1.1.0",
+    "request": "~2.55.0",
+    "request-promise": "~0.4.2",
+    "fast-csv": "~0.6.0",
+    "q": "~1.4.0",
+    "bunyan": "~1.3.5",
+    "nodemailer": "~1.3.4"
+  }
+}

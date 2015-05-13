@@ -39,7 +39,8 @@ function createWorker() {
       },
       mailchimp: {
         apiKey: process.env.LAUNCHCHIMP_MC_API_KEY,
-        listName: process.env.LAUNCHCHIMP_MC_LIST
+        listName: process.env.LAUNCHCHIMP_MC_LIST,
+        admins: process.env.LAUNCHCHIMP_MC_ADMINS
       }
     };
 

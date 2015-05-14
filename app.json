@@ -1,0 +1,48 @@
+{
+  "name": "launchchimp",
+  "description": "A Launchrock Mailchimp API Integration Daemon",
+  "keywords": [
+    "Launchrock",
+    "Mailchimp",
+    "API"
+  ],
+  "website": "https://github.com/timols/launchchimp",
+  "repository": "https://github.com/timols/launchchimp",
+  "env": {
+    "LAUNCHCHIMP_LR_EMAIL": {
+      "description": "Email address to login to Launchrock",
+      "required": true,
+      "default": ""
+    },
+    "LAUNCHCHIMP_LR_PASSWORD": {
+      "description": "Password used to login to Launchrock",
+      "required": true,
+      "default": ""
+    },
+    "LAUNCHCHIMP_LR_PROJECT": {
+      "description": "Name of the project in Launchrock",
+      "required": true,
+      "default": ""
+    },
+    "LAUNCHCHIMP_MC_ADMINS": {
+      "description": "Comma separated list of emails to send a success email to",
+      "required": false,
+      "default": ""
+    },
+    "LAUNCHCHIMP_MC_API_KEY": {
+      "description": "Your Mailchimp API key",
+      "required": true,
+      "default": ""
+    },
+    "LAUNCHCHIMP_MC_LIST": {
+      "description": "Name of the Mailchimp list to add subscribers to",
+      "required": true,
+      "default": ""
+    },
+    "LAUNCHCHIMP_POLL_FREQUENCY": {
+      "description": "How frequently to poll for new users",
+      "required": false,
+      "default": "60000"
+    }
+  }
+}

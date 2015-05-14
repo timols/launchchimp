@@ -1,5 +1,7 @@
 # Launchchimp
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 Launchchimp provides a simple polling service to integrate your list of users that have
 signed up on Launchrock and a Mailchimp list you might be using.
 
